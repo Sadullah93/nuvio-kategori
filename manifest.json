@@ -1,0 +1,47 @@
+{
+  "id": "org.sadullah.webdramaturkey",
+  "version": "1.0.0",
+  "name": "WebDramaTurkey",
+  "description": "Kore, Çin, Anime film ve dizileri.",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "kore_dizileri",
+      "name": "Kore Dizileri",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "series",
+      "id": "cin_dizileri",
+      "name": "Çin Dizileri",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "series",
+      "id": "anime_dizileri",
+      "name": "Anime Dizileri",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "kore_filmleri",
+      "name": "Kore Filmleri",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "cin_filmleri",
+      "name": "Çin Filmleri",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "anime_filmleri",
+      "name": "Anime Filmleri",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    }
+  ],
+  "idPrefixes": ["webdramaturkey:"]
+}
